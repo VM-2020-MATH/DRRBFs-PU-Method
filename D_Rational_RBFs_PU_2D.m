@@ -20,6 +20,7 @@ end
 % Mesh generation (trial points) (here is uniform nodes)
 n=input([' Enter the number of points in each direction (recommended n>=32 (32, 64, 128 and 256 were used) ....' ...
     'to get more accurate results):']);
+disp('Please wait to run the program...')
 a=0; b=1; h=(b-a)/n;
 [x,y]=meshgrid(a:h:b);
 X=[x(:) y(:)]; N=length(X);
