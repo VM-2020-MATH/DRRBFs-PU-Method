@@ -9,6 +9,8 @@ Authors: Vahid Mohammadi 1, Stefano De Marchi 2
 
 2. Department of Mathematics "Tullio Levi-Civita",
    University of Padua, Italy
+
+   
    Note that:
 a. To construct the local approximation in each patch. a Matérn radial kernel is utilized.
 b. A compactly supported Wendland's function is used as the PU weights.
