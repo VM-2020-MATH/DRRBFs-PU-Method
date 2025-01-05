@@ -4,8 +4,8 @@ function A=Weight_Rational_RBF_PU_2D(X,Xe,a,b,n,Order,Tfunc)
 %         a and b are the beginning and end of the interval (Domain is the square [a,b]^2)
 %         n=(b-a)/h for choosing the number of patch (Npu=(n/4)^2)
 %         Order: '1' for the approximation; 
-%                '1x' for the first derivative in directin x;
-%                '1y' for the first derivative in directin y;
+%                '1x' for the first derivative in direction x;
+%                '1y' for the first derivative in direction y;
 %         Tfunc: is the test function, i.e., 'R1' (first example) or 'R2' (second example)
 %         given in the paper;
 
@@ -20,7 +20,7 @@ switch (Tfunc)
     otherwise
         error ('No example is found, but the user can add a new example...')
 end
-% RBF (Matern kernel)
+% RBF (Matern kernel) and its first derivatives
 rbf=@(r,c)       exp(-c*r).*(15+15*(c*r)+6*(c*r).^2+(c*r).^3);
 dxrbf=@(r,c,x)  -c^2.*x.*exp(-c*r).*((c*r).^2+3*(c*r)+3);
 dyrbf=@(r,c,y) -c^2.*y.*exp(-c*r).*((c*r).^2+3*(c*r)+3);
