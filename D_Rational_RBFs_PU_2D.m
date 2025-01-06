@@ -1,6 +1,7 @@
 % This program gives the approximate solutions to the 2D functions and their first derivatives via the direct 
-%rational radial basis functions partition of unity (DRRBF-PU) method. Two different examples are written in this code. However,
-%the use can add new examples to check the results.
+% rational radial basis functions partition of unity (DRRBF-PU) method. Two different examples are written in this code. However,
+% the users can add new examples to check the results.
+% To run this code, it is also necessary to consider the other function "Weight_Rational_RBF_PU_2D.m".
 clearvars;
 clc;
 format shorte;
@@ -27,11 +28,11 @@ disp('Please wait to run the program...')
 a=0; b=1; h=(b-a)/n;
 [x,y]=meshgrid(a:h:b);
 X=[x(:) y(:)]; N=length(X);
-% Evalute the approximate solution at test points
+% Evaluate the approximate solution at test points
 sz=[100 100];
 [ll,tt]=meshgrid(linspace(a,b,sz(1)),linspace(a,b,sz(2)));
 Xc=[ll(:),tt(:)];
-% Differentiation matrix
+% Differentiation matrix (call subroutine "Weight_Rational_RBF_PU_2D.m")
 Dx=Weight_Rational_RBF_PU_2D([X(:,1),X(:,2)],[Xc(:,1),Xc(:,2)],a,b,n,'1x',Tfunc);
 % plot of approximate and exact solution
 f=u(X(:,1),X(:,2));
