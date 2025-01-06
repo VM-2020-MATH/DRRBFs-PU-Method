@@ -1,3 +1,6 @@
+% This program gives the approximate solutions to the 2D functions and their first derivatives via the direct 
+rational radial basis functions partition of unity (DRRBF-PU) method. Two different examples are written in this code. However,
+the use can add new examples to check the results.
 clearvars;
 clc;
 format shorte;
