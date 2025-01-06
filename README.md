@@ -30,4 +30,4 @@ c. The user can change the radial kernel and PU weights (it also is possible to 
 
 Reference Paper:
 
-A Note on the Direct Approximation of Derivatives in \\Rational Radial Basis Functions Partition of Unity Method, Submitted.
+A Note on the Direct Approximation of Derivatives in Rational Radial Basis Functions Partition of Unity Method, Submitted.
