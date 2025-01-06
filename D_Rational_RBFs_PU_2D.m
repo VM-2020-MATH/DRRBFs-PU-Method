@@ -1,8 +1,12 @@
 % This program gives the approximate solutions to the 2D functions and their first derivatives via the direct 
 % rational radial basis functions partition of unity (DRRBF-PU) method. Two different examples are written in this code.
-% The users can add new examples (see Lines 8-23) to check the results.
-% The users can utilize the quasi-uniform nodes (for example, Halton nodes) by changing Lines 29 and 30.
 % To run this code, it is also necessary to consider the other function "Weight_Rational_RBF_PU_2D.m".
+% Inputs (changeable by the user)
+% The users can add new examples (see Lines 8-23) to check the results.
+% The users can utilize quasi-uniform nodes (Halton nodes) by changing Lines 29 and 30.
+% Order: '1' for the approximation; (see Line 41);
+%                '1x' for the first derivative in direction x;
+%                '1y' for the first derivative in direction y;
 clearvars;
 clc;
 format shorte;
@@ -34,7 +38,7 @@ sz=[100 100];
 [ll,tt]=meshgrid(linspace(a,b,sz(1)),linspace(a,b,sz(2)));
 Xc=[ll(:),tt(:)];
 % Differentiation matrix (call subroutine "Weight_Rational_RBF_PU_2D.m")
-Order=
+Order='1x';
 Dx=Weight_Rational_RBF_PU_2D([X(:,1),X(:,2)],[Xc(:,1),Xc(:,2)],a,b,n,Order,Tfunc);
 % plot of approximate and exact solution
 f=u(X(:,1),X(:,2));
