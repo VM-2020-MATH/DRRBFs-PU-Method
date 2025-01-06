@@ -4,7 +4,7 @@
 % Inputs (changeable by the user)
 % The users can add new examples (see Lines 8-23) to check the results.
 % The users can utilize quasi-uniform nodes (Halton nodes) by changing Lines 29 and 30.
-% Order: '1' for the approximation; (see Line 41);
+% Order:         '1' for the approximation; (see Line 41);
 %                '1x' for the first derivative in direction x;
 %                '1y' for the first derivative in direction y;
 clearvars;
