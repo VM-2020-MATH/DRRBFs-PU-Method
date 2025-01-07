@@ -9,7 +9,7 @@ function A=Weight_Rational_RBF_PU_2D(X,Xe,a,b,n,Order,Tfunc)
 %         Tfunc: is the test function, i.e., 'R1' (first example) or 'R2' (second example)
 %         given in the paper;
 
-% Output: A is the differentiation matrix;
+% Output: A is the differentiation matrix (Global matrix);
          
 % Test function
 switch (Tfunc)
