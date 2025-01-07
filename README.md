@@ -6,7 +6,7 @@ These scripts are:
 
 and the function 
 
-"Weighted_Rational_RBFs_PU_2D.m". 
+"Weight_Rational_RBFs_PU_2D.m". 
 
 To reproduce the results,
 
