@@ -1,4 +1,4 @@
-There are two scripts in MATLAB that implement the DRRBF-PU (Direct Rational RBF Partition of Unity) method, for estimating the derivatives.
+There are two scripts in MATLAB that implement the D-RRBF-PU (Direct Rational RBF Partition of Unity) method, for estimating the derivatives.
 
 These scripts are:
 
