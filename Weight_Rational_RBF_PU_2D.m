@@ -35,7 +35,7 @@ npu=n/4; xx=linspace(a,b,npu); [xl,yl]=meshgrid(xx);
 Xl=[xl(:) yl(:)];             
 Nc=length(Xl);
 % Specific parameters related to the proposed method
-delta=1/npu;
+delta=(b-a)/npu;
 % Shape parameter
 c=35;
 % radius of patch 
