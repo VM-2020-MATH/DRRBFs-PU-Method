@@ -3,7 +3,7 @@ function A=Weight_Rational_RBF_PU_2D(X,Xe,a,b,n,Order,Tfunc)
 %         Xe is a set of test points;
 %         a and b are the beginning and end of the interval (Domain is the square [a,b]^2)
 %         n=(b-a)/h for choosing the number of patch (Npu=(n/4)^2)
-%         Order: '1' for the approximation; 
+%         Order: '0' for the approximation; 
 %                '1x' for the first derivative in direction x;
 %                '1y' for the first derivative in direction y;
 %         Tfunc: is the test function, i.e., 'R1' (first example) or 'R2' (second example)
