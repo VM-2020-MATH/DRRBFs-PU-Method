@@ -18,7 +18,7 @@ Also, two other scripts in MATLAB are given showing the implementation of the D-
 
 These scripts are:
 
-"Convection_Diffusion_Ex1.m"
+"Convection_Diffusion_Ex1.m" (Subsection 5.1, A rotating Gaussian pulse)
 
 and the function
 
