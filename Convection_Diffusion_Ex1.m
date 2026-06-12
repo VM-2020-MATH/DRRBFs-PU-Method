@@ -15,7 +15,7 @@ Xb=[Xb1;Xb2;Xb3;Xb4]; Nb=length(Xb);
 % Interior points
 indi=find(X(:,1)>a & X(:,1)<b & X(:,2)>a & X(:,2)<b);  Xi=X(indi,:);  Ni=length(Xi);
 % Whole points
-X=[Xb;Xi];
+X=[Xb;Xi];  N=length(X);
 % Constant Parameter
 nu=0.0005;
 % Final time & time step
