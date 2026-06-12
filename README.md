@@ -39,6 +39,8 @@ b. A compactly supported Wendland's function is used as the PU weights.
 
 c. The user can change the radial kernel and PU weights (it also is possible to apply a discontinuous weight function).
 
+d. If the user wants to reproduce the second example of Convection-diffusion equation (See Subsection 5.2, the inviscid Burgers equation), he/she needs to change accordingly. 
+
 Reference Paper:
 
 A Note on the Direct Approximation of Derivatives in Rational Radial Basis Functions Partition of Unity Method and Its
