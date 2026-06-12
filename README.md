@@ -14,11 +14,11 @@ the user can directly run
 
 "D_Rational_RBFs_PU_2D.m" (see also the comments type proposed in the file).
 
-Also, two other scripts in MATLAB are given showing the implementation of the D-RRBF-PU method combined with a fourth-order Runge-Kutta method for solving the Convection-Diffusion equation in two dimensions.
+Also, two other scripts in MATLAB are given showing the implementation of the D-RRBF-PU method combined with a fourth-order Runge-Kutta method for solving the Convection-Diffusion equation in two dimensions (see Subsection 5.1, A rotating Gaussian pulse).
 
 These scripts are:
 
-"Convection_Diffusion_Ex1.m" (Subsection 5.1, A rotating Gaussian pulse)
+"Convection_Diffusion_Ex1.m" 
 
 and the function
 
