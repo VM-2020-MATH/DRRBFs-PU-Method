@@ -53,7 +53,7 @@ sz=[100 100];   % surface grid parameters
 [ll,tt]=meshgrid(linspace(a,b,sz(2)),linspace(a,b,sz(1)));
 xx=[ll(:) tt(:)];
 % **************** Interpolate to the grid ************* %
-AI=Weight_Rational_RBF_PU_2D_MHD([X(:,1),X(:,2)],xx,a,b,n,'0',U0);
+AI=Weight_Rational_RBF_PU_2D_CD([X(:,1),X(:,2)],xx,a,b,n,'0',U0);
 yy=reshape(xx(:,2),sz);
 xx=reshape(xx(:,1),sz);
 % Approximate solution 
