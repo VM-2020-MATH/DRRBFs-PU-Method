@@ -14,12 +14,20 @@ the user can directly run
 
 "D_Rational_RBFs_PU_2D.m" (see also the comments type proposed in the file).
 
+Also, two other scripts in MATLAB are given showing the implementation of the D-RRBF-PU method combined with a fourth-order Runge-Kutta method for solving the Convection-Diffusion equation in two dimensions.
+These scripts are:
+
+"Convection_Diffusion_Ex1.m"
+
+and the function
+
+"Weight_Rational_RBF_PU_2D_CD.m"
+
 Authors: Vahid Mohammadi 1, Stefano De Marchi 2
 
 1. Department of Mathematics, Faculty of Science, Shahid Rajaee Teacher Training University, Tehran, 16785-163, Iran
 
-2. Department of Mathematics "Tullio Levi-Civita",
-   University of Padua, Italy
+2. Department of Medicine and Padova Neuroscience Center, University of Padua, Italy
 
    
    Note that:
